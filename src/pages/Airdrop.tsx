@@ -1,6 +1,6 @@
 import { useGameStore } from '../store/gameStore';
 import TopBar from '../components/TopBar';
-import { hamsterCoin } from '../images';
+import { falcoCoin } from '../images';
 
 const Airdrop = () => {
   const { totalEarned, profitPerHour, levelIndex, referrals, upgrades } = useGameStore();
@@ -84,7 +84,7 @@ const Airdrop = () => {
             
             {/* Header */}
             <div className="px-4 pt-6 text-center">
-              <img src={hamsterCoin} alt="Falco-X Coin" className="w-24 h-24 mx-auto mb-4" />
+              <img src={falcoCoin} alt="Falco-X Coin" className="w-24 h-24 mx-auto mb-4" />
               <h1 className="text-2xl font-bold">Airdrop</h1>
               <p className="text-gray-400 mt-2">Get ready for the $FALCOX token airdrop!</p>
             </div>
@@ -109,7 +109,7 @@ const Airdrop = () => {
                   <div className="mt-4 p-3 bg-[#1d2025] rounded-xl">
                     <p className="text-gray-400 text-sm">Estimated Tokens</p>
                     <div className="flex items-center justify-center gap-2 mt-1">
-                      <img src={hamsterCoin} alt="FALCOX" className="w-6 h-6" />
+                      <img src={falcoCoin} alt="FALCOX" className="w-6 h-6" />
                       <span className="text-2xl font-bold text-white">{formatNumber(estimatedTokens)} FALCOX</span>
                     </div>
                   </div>

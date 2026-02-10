@@ -1,7 +1,7 @@
 import { IconProps } from "../utils/types";
 
 
-const Hamster: React.FC<IconProps> = ({ size = 24, className = "" }) => {
+const FalcoX: React.FC<IconProps> = ({ size = 24, className = "" }) => {
 
     const svgSize = `${size}px`;
 
@@ -10,4 +10,4 @@ const Hamster: React.FC<IconProps> = ({ size = 24, className = "" }) => {
     );
 };
 
-export default Hamster;
+export default FalcoX;

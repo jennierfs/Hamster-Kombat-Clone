@@ -60,7 +60,7 @@ const COMBO_CARDS = [
   ['fan-tokens', 'staking', 'btc-pairs'],
   ['ceo', 'marketing', 'it-team'],
   ['kyc-system', 'aml-compliance', 'license-eu'],
-  ['hamster-nft', 'vip-program', 'launchpad'],
+  ['falco-nft', 'vip-program', 'launchpad'],
   ['eth-pairs', 'defi-tokens', 'gamefi-tokens'],
   ['security-team', 'support-team', 'ux-team'],
   ['meme-coins', 'top-10-coins', 'btc-pairs'],

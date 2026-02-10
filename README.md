@@ -1,11 +1,11 @@
-# 🐹 Hamster Kombat Clone
+# 🦅 Falco-X
 
-A fully functional Telegram Mini App clone of the popular Hamster Kombat game, built with React, TypeScript, and Vite.
+A fully functional Telegram Mini App — Falco-X Tap to Earn game, built with React, TypeScript, and Vite.
 
 ## ✨ Features
 
 ### Core Gameplay
-- **Tap to Earn**: Tap the hamster to earn coins with satisfying animations
+- **Tap to Earn**: Tap the falcon to earn coins with satisfying animations
 - **Energy System**: Limited taps that regenerate over time
 - **Level Progression**: 10 levels from Bronze to Lord
 - **Passive Income**: Earn coins automatically based on your profit per hour
@@ -38,8 +38,8 @@ A fully functional Telegram Mini App clone of the popular Hamster Kombat game, b
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hamster-kombat-clone.git
-cd hamster-kombat-clone
+git clone https://github.com/yourusername/falco-x.git
+cd falco-x
 
 # Install dependencies
 npm install
@@ -144,7 +144,7 @@ src/
 
 ## 📄 License
 
-This project is for educational purposes only. Hamster Kombat is a trademark of its respective owners.
+This project is Falco-X — a Tap to Earn game. All rights reserved.
 
 ## 🤝 Contributing
 

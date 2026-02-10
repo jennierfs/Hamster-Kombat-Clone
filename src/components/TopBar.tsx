@@ -1,6 +1,6 @@
 import { useGameStore } from '../store/gameStore';
 import { binanceLogo, dollarCoin } from '../images';
-import Hamster from '../icons/Hamster';
+import FalcoX from '../icons/Hamster';
 import Info from '../icons/Info';
 import Settings from '../icons/Settings';
 import { LEVEL_NAMES, LEVEL_MIN_POINTS } from '../utils/constants';
@@ -33,7 +33,7 @@ const TopBar = () => {
       <div className="px-4 z-10">
         <div className="flex items-center space-x-2 pt-4">
           <div className="p-1 rounded-lg bg-[#1d2025]">
-            <Hamster size={24} className="text-[#d4d4d4]" />
+            <FalcoX size={24} className="text-[#d4d4d4]" />
           </div>
           <div>
             <p className="text-sm">{username} (CEO)</p>

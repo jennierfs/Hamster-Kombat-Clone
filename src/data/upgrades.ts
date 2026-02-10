@@ -218,7 +218,7 @@ export const initialUpgrades: UpgradeCard[] = [
   
   // Specials Category
   {
-    id: 'hamster-nft',
+    id: 'falco-nft',
     name: 'Falco-X NFT',
     description: 'Launch exclusive Falco-X NFTs',
     category: 'specials',

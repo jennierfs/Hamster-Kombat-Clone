@@ -67,7 +67,7 @@ const DailyCipherModal = ({ onClose }: DailyCipherModalProps) => {
             </div>
 
             <div className="mb-4">
-              <p className="text-gray-400 text-xs mb-2">Hint: Tap the hamster in morse code pattern</p>
+              <p className="text-gray-400 text-xs mb-2">Hint: Tap the falcon in morse code pattern</p>
               <div className="flex justify-center text-yellow-400 text-2xl">
                 {morseHint}
               </div>

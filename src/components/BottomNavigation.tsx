@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { binanceLogo, hamsterCoin } from '../images';
+import { binanceLogo, falcoCoin } from '../images';
 import Mine from '../icons/Mine';
 import Friends from '../icons/Friends';
 import Coins from '../icons/Coins';
@@ -10,7 +10,7 @@ const BottomNavigation = () => {
     { to: '/mine', icon: <Mine className="w-8 h-8" />, label: 'Mine' },
     { to: '/friends', icon: <Friends className="w-8 h-8" />, label: 'Friends' },
     { to: '/earn', icon: <Coins className="w-8 h-8" />, label: 'Earn' },
-    { to: '/airdrop', icon: <img src={hamsterCoin} alt="Airdrop" className="w-8 h-8" />, label: 'Airdrop' },
+    { to: '/airdrop', icon: <img src={falcoCoin} alt="Airdrop" className="w-8 h-8" />, label: 'Airdrop' },
   ];
 
   return (
