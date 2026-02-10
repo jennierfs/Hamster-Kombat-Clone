@@ -1,5 +1,5 @@
 {
-  "name": "hamster-kombat-telegram-mini-app-clone",
+  "name": "falco-x-telegram-mini-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,8 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tma.js/sdk": "^3.1.6",
+    "@tma.js/sdk-react": "^3.0.15",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.0",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",

@@ -1,52 +1,154 @@
-# Hamster Kombat Clone
+# 🐹 Hamster Kombat Clone
 
-This repository contains the final version of the Hamster Kombat clone project, including the basic project structure, necessary images, and icons.
+A fully functional Telegram Mini App clone of the popular Hamster Kombat game, built with React, TypeScript, and Vite.
 
-## Overview
+## ✨ Features
 
-This project is a clone of the popular Telegram mini app, Hamster Kombat. The repository provides two branches:
+### Core Gameplay
+- **Tap to Earn**: Tap the hamster to earn coins with satisfying animations
+- **Energy System**: Limited taps that regenerate over time
+- **Level Progression**: 10 levels from Bronze to Lord
+- **Passive Income**: Earn coins automatically based on your profit per hour
 
-1. **Develop**: Provides a development environment.
-2. **Main**: The completed application with all functionalities.
+### Sections
+- **Exchange**: Main tap-to-earn screen with daily bonuses
+- **Mine**: Purchase upgrades to increase your profit per hour
+- **Friends**: Referral system with shareable invite links
+- **Earn**: Complete tasks and achievements for bonus rewards
+- **Airdrop**: Track your eligibility for the token airdrop
 
-## Getting Started
+### Daily Bonuses
+- **Daily Reward**: Login streaks up to 10 days with increasing rewards
+- **Daily Cipher**: Solve word puzzles for 1M coins
+- **Daily Combo**: Find 3 specific upgrade cards for 5M coins
 
-To get started with either the initial setup or the final version, follow these instructions:
+### Technical Features
+- **Telegram Integration**: Full Telegram Web App SDK support
+- **Persistent Storage**: All progress saved to localStorage
+- **Responsive Design**: Optimized for mobile devices
+- **Haptic Feedback**: Vibration on tap (when supported)
 
-### Cloning the Repository
+## 🚀 Getting Started
 
-1. **Clone the Repository**:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
 
-    ```bash
-    git clone https://github.com/Mykolasu/Hamster-Kombat-Clone.git
-    cd Hamster-Kombat-Telegram-Mini-App-Clone
-    ```
+### Installation
 
-### Final Version
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/hamster-kombat-clone.git
+cd hamster-kombat-clone
 
-2. **Switch to the `main` Branch**:
+# Install dependencies
+npm install
 
-    ```bash
-    git checkout main
-    ```
+# Start development server
+npm run dev
+```
 
-3. **Install Dependencies**:
+### Building for Production
 
-    ```bash
-    npm install
-    ```
+```bash
+# Build the app
+npm run build
 
-4. **Run the Development Server**:
+# Preview production build
+npm run preview
+```
 
-    ```bash
-    npm run dev
-    ```
+## 📱 Deploying to Telegram
 
-5. **Open Your Browser**:
+### 1. Create a Bot
+1. Message [@BotFather](https://t.me/BotFather) on Telegram
+2. Create a new bot with `/newbot`
+3. Save your bot token
 
-    Navigate to localhost to see the final version of the application.
+### 2. Set Up Mini App
+1. Message @BotFather again
+2. Use `/newapp` to create a new web app
+3. Link it to your bot
+4. Provide your deployed URL (HTTPS required)
 
-## Contact
+### 3. Deploy Your App
+You can deploy to any static hosting service:
+
+**Vercel (Recommended)**
+```bash
+npm install -g vercel
+vercel
+```
+
+**Netlify**
+```bash
+npm install -g netlify-cli
+netlify deploy --prod
+```
+
+**GitHub Pages**
+1. Push to GitHub
+2. Enable Pages in repository settings
+3. Set base URL in `vite.config.ts`
+
+### 4. Configure Bot Menu Button
+```
+/setmenubutton
+```
+Select your bot and provide your app URL.
+
+## 🛠️ Tech Stack
+
+- **React 18** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Zustand** - State management
+- **React Router** - Navigation
+- **Telegram Web App SDK** - Telegram integration
+
+## 📁 Project Structure
+
+```
+src/
+├── components/      # Reusable UI components
+├── data/           # Static data (upgrades, tasks)
+├── icons/          # SVG icon components
+├── images/         # Image assets
+├── pages/          # Page components
+├── store/          # Zustand store
+└── utils/          # Utility functions & types
+```
+
+## 🎮 Game Mechanics
+
+### Levels
+| Level | Required Points |
+|-------|----------------|
+| Bronze | 0 |
+| Silver | 5,000 |
+| Gold | 25,000 |
+| Platinum | 100,000 |
+| Diamond | 1,000,000 |
+| Epic | 2,000,000 |
+| Legendary | 10,000,000 |
+| Master | 50,000,000 |
+| GrandMaster | 100,000,000 |
+| Lord | 1,000,000,000 |
+
+### Upgrades
+- **Markets**: Trading pairs and token listings
+- **PR & Team**: Staff and marketing improvements
+- **Legal**: Licenses and compliance
+- **Specials**: Premium features
+
+## 📄 License
+
+This project is for educational purposes only. Hamster Kombat is a trademark of its respective owners.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
 
 For any inquiries, please contact me in Telegram: [Mykola](https://t.me/mykola49).
 

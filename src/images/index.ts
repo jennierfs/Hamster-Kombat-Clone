@@ -1,11 +1,12 @@
 import hamsterExchange from "./hamster-exchange.png";
 import binanceLogo from "./binance-logo.png";
-import dollarCoin from "./dollar-coin.png";
 import dailyReward from "./daily-reward.png";
 import dailyCipher from "./daily-cipher.png";
 import dailyCombo from "./daily-combo.png";
 import mainCharacter from "./main-character.png";
-import hamsterCoin from "./hamster-coin.png";
+
+const dollarCoin = "https://photos.pinksale.finance/file/pinksale-logo-upload/1770694538122-0df3b8b4e8a5cdaa2a70aba07bbc4c3e.png";
+const hamsterCoin = "https://photos.pinksale.finance/file/pinksale-logo-upload/1770694538122-0df3b8b4e8a5cdaa2a70aba07bbc4c3e.png";
 
 export {
     hamsterExchange,
